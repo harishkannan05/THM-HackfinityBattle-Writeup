@@ -4,6 +4,8 @@
 # Solution
 The web app appears to be a simple PGP encryption tool designed for encrypting messages using one of several recipients’ public keys. 
 I tried various inputs and found that the web app is vulnerable to `OS command injection`. We can simply cat the flag.  
-```;cat flag.txt```
+```
+;cat flag.txt
+```
 ![image](https://github.com/user-attachments/assets/24daf624-0abf-48df-8546-74993fd689d0)
 Flag: THM{pgp_cant_stop_me}
