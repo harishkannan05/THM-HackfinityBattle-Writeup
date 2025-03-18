@@ -8,4 +8,4 @@ Googling `Mr.Wok Sao Paulo` leads us to this [place](https://www.tripadvisor.ie/
 ![image](https://github.com/user-attachments/assets/c0475283-70c6-444a-a64e-892f8c35da1a)
 The address is: Rua Galvao Bueno 83, Sao Paulo, State of Sao Paulo 01506-000 Brazil.
 
-Flag: THM{THM{83_galvao_bueno}
+Flag: THM{83_galvao_bueno}
