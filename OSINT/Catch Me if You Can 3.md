@@ -1,0 +1,11 @@
+# Challenge Statement
+![image](https://github.com/user-attachments/assets/3adf8864-3540-4a5a-a4be-65ef0393082d)
+
+Attachment: [Image](https://github.com/harishkannan05/THM-HackfinityBattle-Writeup/blob/main/Attachments/beco-batman-2-1741192876782.png)
+
+# Solution
+Googling `Mr.Wok Sao Paulo` leads us to this [place](https://www.tripadvisor.ie/Restaurant_Review-g303631-d14802491-Reviews-Mr_Wok-Sao_Paulo_State_of_Sao_Paulo.html).
+![image](https://github.com/user-attachments/assets/c0475283-70c6-444a-a64e-892f8c35da1a)
+The address is: Rua Galvao Bueno 83, Sao Paulo, State of Sao Paulo 01506-000 Brazil.
+
+Flag: THM{THM{83_galvao_bueno}
