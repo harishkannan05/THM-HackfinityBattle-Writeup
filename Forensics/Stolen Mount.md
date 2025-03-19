@@ -1,5 +1,5 @@
 # Challenge Statement
-
+![image](https://github.com/user-attachments/assets/63fdfcec-b457-4b68-8d25-83f64f5005aa)
 
 # Solution
 We have a `.pcapng` which shows us the packets transmitted when the NFS server was infiltrated.  
