@@ -12,7 +12,7 @@ We then follow the TCP Stream to view the contents of the packet. We find that t
 We can use any tool to crack the md5 hash and get the password. I've used [this site.](https://crackstation.net/)
 ![image](https://github.com/user-attachments/assets/06128ad2-8afe-4e95-8ed6-44f89fae26b2)
 
-The password is: avengers
+The password is: ``avengers``
 
 To retrieve the "Archive" file, we can change the data type to `RAW` and save it as a zip file.  
 Then, we just have to unzip the file and enter the password that we had retrieved. 
