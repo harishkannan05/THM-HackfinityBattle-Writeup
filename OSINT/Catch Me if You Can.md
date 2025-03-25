@@ -10,4 +10,4 @@ We start by doing a reverse image search on Google. We learn that the name of th
 We can then look for burger places nearby. Trying all the results we find the flag.
 ![image](https://github.com/user-attachments/assets/2b0457a7-e11b-4e88-a637-8d95f539bb9d)
 
-Flag: THM{coringa_do_beco}
+**Flag:** THM{coringa_do_beco}
