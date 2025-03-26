@@ -5,7 +5,6 @@ Attachment: [Image](https://github.com/harishkannan05/THM-HackfinityBattle-Write
 
 # Solution
 Googling `Mr.Wok Sao Paulo` leads us to this [place](https://www.tripadvisor.ie/Restaurant_Review-g303631-d14802491-Reviews-Mr_Wok-Sao_Paulo_State_of_Sao_Paulo.html).
-![image](https://github.com/user-attachments/assets/c0475283-70c6-444a-a64e-892f8c35da1a)
-The address is: Rua Galvao Bueno 83, Sao Paulo, State of Sao Paulo 01506-000 Brazil.
+![image](https://github.com/user-attachments/assets/af9efa32-b1f5-4124-bbc3-a268921fd8e2)
 
-**Flag:** THM{83_galvao_bueno}
+Now, we just need to construct the flag in the required format. 
