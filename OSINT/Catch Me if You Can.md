@@ -7,5 +7,5 @@ Attachment: [Image](https://github.com/harishkannan05/THM-HackfinityBattle-Write
 We start by doing a reverse image search on Google. We learn that the name of the place is Beco Do Batman.  
 ![image](https://github.com/user-attachments/assets/677e2903-991c-4af7-9bf5-7e387019000f)
 
-We can then look for burger places nearby. Trying all the results we find the flag.
+We can then look for burger places nearby. Trying all the results, we find the flag.
 ![image](https://github.com/user-attachments/assets/4c63a031-637a-4064-ab9d-7f3427200cee)
