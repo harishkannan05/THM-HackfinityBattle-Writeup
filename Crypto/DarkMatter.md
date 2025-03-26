@@ -11,12 +11,10 @@ Checking the `/tmp` directory, we find a file called `public_key.txt`.
 ![image](https://github.com/user-attachments/assets/06fbdf21-52bf-4d7f-9e83-e4ae7ee72550)
 
 Now that we know `e` and `n`, we can use this [decoder](https://www.dcode.fr/rsa-cipher) to find d.  
-![image](https://github.com/user-attachments/assets/d13ae307-d83e-413a-8ff2-abc968e14989)
+![image](https://github.com/user-attachments/assets/2fcc0e0e-ee06-4c2b-af78-11217dbc29a8)
 
 Entering the value of `d` in the decryption key field in the ransomware, we are able to decrypt the files.  
 ![image](https://github.com/user-attachments/assets/38a98483-5daf-40e7-9e12-c6f6570bc24d)
 
 We can now open and view the files on the Desktop. The `student_grades.docx` holds the flag.  
-![image](https://github.com/user-attachments/assets/7f06ad29-256a-42f5-9f6d-32002c364ad0)
-
-Flag: THM{d0nt_l34k_y0ur_w34k_m0dulu5}
+![image](https://github.com/user-attachments/assets/917f8a69-3a97-479e-80f7-32b97c580f67)
