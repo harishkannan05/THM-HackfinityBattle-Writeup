@@ -9,4 +9,4 @@ Opening BurpSuite Repeater and playing around with different inputs, we find tha
 We can setup a netcat listener to receive the exfiltrated data.  The payload I used is: 
 ![image](https://github.com/user-attachments/assets/669bd677-2e70-48e9-9d97-c0d7529aba94)
 
-![image](https://github.com/user-attachments/assets/585f9885-bcec-4fb2-9165-4b2dbea2e068)
+![image](https://github.com/user-attachments/assets/0c806fce-0700-40e2-adf3-96237d69ee34)
