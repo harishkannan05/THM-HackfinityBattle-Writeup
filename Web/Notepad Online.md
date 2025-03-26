@@ -8,6 +8,4 @@ We see this screen with the URL: http://10.10.10.15/note.php?note_id=1
 
 Clue here is that “the note will only be visible to you”. So we try to view others’ notes by changing the note id.  
 Changing the URL to: http://10.10.252.73/note.php?note_id=0 
-![image](https://github.com/user-attachments/assets/dae89f3b-9d5f-4ed6-ade7-7fb4960a85fb)
-
-**Flag:** THM{i_can_see_your_notes}
+![image](https://github.com/user-attachments/assets/042861f8-16a1-4aea-8b07-3f137592bf5f)
