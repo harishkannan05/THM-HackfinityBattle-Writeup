@@ -7,5 +7,4 @@ I tried various inputs and found that the web app is vulnerable to `OS command i
 ```
 ;cat flag.txt
 ```
-![image](https://github.com/user-attachments/assets/24daf624-0abf-48df-8546-74993fd689d0)
-**Flag:** THM{pgp_cant_stop_me}
+![image](https://github.com/user-attachments/assets/4e8f406e-2464-4ad3-864a-bece6f3e62a5)
