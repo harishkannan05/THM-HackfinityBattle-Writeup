@@ -12,4 +12,4 @@ One vulnerability is that anyone can call the `changeOwnership()` function to be
 ![image](https://github.com/user-attachments/assets/4950cfb5-60f4-4342-b925-0e91f5ed9d42)
 
 Now, we can go back to the webpage and get the flag.  
-
+![Screenshot 2025-03-27 014200](https://github.com/user-attachments/assets/17ac3b81-46a8-4908-8b15-b611c698e230)
