@@ -9,4 +9,4 @@ We can try to access the S3 bucket and it's contents.
 ![image](https://github.com/user-attachments/assets/aaafd003-76c6-4fec-8705-d4f51dcd51c0)
 
 Now, we can download the files and view them to reveal the flag.  
-![Screenshot 2025-03-27 181714](https://github.com/user-attachments/assets/0f3e34cf-4f3e-41bb-8008-57d4b13e3fab)
+![Screenshot 2025-03-27 181714](https://github.com/user-attachments/assets/c02f8e8c-da10-4099-90c2-c412a19e10f4)
