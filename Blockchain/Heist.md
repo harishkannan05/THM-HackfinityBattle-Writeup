@@ -1,5 +1,5 @@
 # Challenge Statement
-
+![image](https://github.com/user-attachments/assets/6e08528a-2715-43c7-bcaf-397b2bd0f582)
 
 # Solution
 Once again, we visit the site and view the Solidity source code.  
