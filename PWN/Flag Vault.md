@@ -9,7 +9,7 @@ The two local buffers are - `char password[100] = "";` and `char username[100] =
 
 The `login()` function reads the username input using `gets(username)`, which is vulnerable to buffer overflow.  
 
-We also have the credentials given in the code:
+We also have the credentials given in the code:  
 ![image](https://github.com/user-attachments/assets/486242da-eee2-4267-84a9-bc4639fdfcca)
 
 So, all we have to do is find the memory layout and overflow the **username** buffer, which can be used to overwrite the **password** buffer.  
