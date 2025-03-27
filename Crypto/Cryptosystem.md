@@ -42,4 +42,3 @@ flag = flag_bytes.decode()
 # The flag is expected to be in the format THM{...}
 print("Flag:",flag)
 ```
-Flag: THM{Just_s0m3_small_amount_of_RSA!}
