@@ -10,9 +10,7 @@ We then follow the TCP Stream to view the contents of the packet. We find that t
 ![image](https://github.com/user-attachments/assets/5a52a807-7263-429f-a31b-1c9d38428248)
 
 We can use any tool to crack the md5 hash and get the password. I've used [this site.](https://crackstation.net/)
-![image](https://github.com/user-attachments/assets/06128ad2-8afe-4e95-8ed6-44f89fae26b2)
-
-The password is: ``avengers``
+![image](https://github.com/user-attachments/assets/9a16e44f-867c-44d5-b1c4-36acf6a0cbda)
 
 To retrieve the "Archive" file, we can change the data type to `RAW` and save it as a zip file.  
 Then, we just have to unzip the file and enter the password that we had retrieved. 
@@ -20,5 +18,3 @@ Then, we just have to unzip the file and enter the password that we had retrieve
 
 We get a QR code, which gives us the flag when scanned.  
 ![image](https://github.com/user-attachments/assets/e47d78bb-540c-4708-a46b-bdc55a4badab)
-
-Flag: THM{n0t_s3cur3_f1l3_sh4r1ng}
