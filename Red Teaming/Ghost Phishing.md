@@ -1,5 +1,6 @@
 # Challenge Statement
 
+![image](https://github.com/user-attachments/assets/52d4d546-6a0d-4cd4-a863-9947ce50cf55)
 
 # Solution
 Opening the link and logging in with the given credentials, we see that there's an email asking for a "Detailed Report".  
