@@ -24,5 +24,3 @@ decoded_message = decrypt(ciphertext)
 flag = f"THM{{{decoded_message}}}"
 print("Flag:", flag)
 ```
-
-Flag: THM{a_sm4ll_crypt0_message_to_st4rt_with_THM_cracks}
