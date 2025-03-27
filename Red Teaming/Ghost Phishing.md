@@ -2,7 +2,7 @@
 
 
 # Solution
-Opening the link and logging in with the given credentials, we see that there's an email asking for a "Detailed Report". 
+Opening the link and logging in with the given credentials, we see that there's an email asking for a "Detailed Report".  
 I tried attaching a `txt file` and sending it, I was prompted to attach a `docx or docm` file.
 ![image](https://github.com/user-attachments/assets/1b380eb1-f9bb-466e-b876-e4c2a667afde)
 
