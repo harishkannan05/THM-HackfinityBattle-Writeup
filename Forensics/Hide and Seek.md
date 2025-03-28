@@ -4,7 +4,7 @@
 # Solution
 Firstly, we can assume **ROOT** since we can do `sudo su`.  
 
-1. The **First Clue** - "Time is on my side, always running like clockwork.", suggests something related to cronjobs in Linux.  
+➜ The **First Clue** - "Time is on my side, always running like clockwork.", suggests something related to cronjobs in Linux.  
 We can check all the current cron jobs using `crontab -l`.  
 ![image](https://github.com/user-attachments/assets/ab4b2f85-1aa1-4415-abaa-e9dc5a97f9db)
 
