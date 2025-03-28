@@ -2,7 +2,7 @@
 ![image](https://github.com/user-attachments/assets/2cff37dd-1b51-4c1f-81cf-0307bdbcd4f0)
 
 # Solution
-Going through the given `.pcapng` file, we can see that they have some sort of Blind SQL injection and the requests are URL encoded.
+Going through the given `.pcapng` file, we can see that they have some sort of Blind SQL injection and the requests are URL encoded.  
 ![image](https://github.com/user-attachments/assets/d4714b8e-1aa7-49e9-9754-860beb9f4a16)
 
 We can write a Python script to iterate the relevated packet captures and output the exfiltrated data. 
