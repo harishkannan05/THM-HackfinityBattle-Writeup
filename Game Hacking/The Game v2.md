@@ -5,9 +5,9 @@
 We see that we need to get a score of 999999 to get the flag.  
 We need to analyse the code and try to find the function which checks the score and reads out the flag.  
 I used Binary Ninja to analyze the code.  
-![image](https://github.com/user-attachments/assets/fafd9ce3-a1c7-4007-b236-8b722ad4d2b9)
+![image](https://github.com/user-attachments/assets/1d71c544-75b9-4279-9261-fb570a257ccb)
 
 Now, we just need to find the function, change it from "999999" to "1" and recompile into an .exe file.  
 Play the game and we can now easily get the flag.  
 
-![image](https://github.com/user-attachments/assets/8ee75260-caf9-4eb4-b67d-ccce29e4fef8)
+![image](https://github.com/user-attachments/assets/0d68066e-1ed9-48d6-b3d6-47bef10a13d7)
