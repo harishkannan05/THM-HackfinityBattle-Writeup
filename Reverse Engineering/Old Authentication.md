@@ -1,6 +1,7 @@
 # Challenge Statement 
 ![image](https://github.com/user-attachments/assets/42c29c83-324a-470f-a210-acc66eb06267)
 
+Attachment: [OldAuth](https://github.com/harishkannan05/THM-HackfinityBattle-Writeup/blob/main/Attachments/oldauth)
 # Solution
 Same as before, we can first get the assembly code from the executable. (Or use Ghidra)
 ```
