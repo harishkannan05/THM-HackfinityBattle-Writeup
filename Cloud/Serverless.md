@@ -1,5 +1,5 @@
 # Challenge Statement
-
+![image](https://github.com/user-attachments/assets/c2ba964f-cf0e-46cc-ab68-77bbe4afcd9d)
 
 # Solution
 Firstly, let's configure our AWS CLI.  
@@ -36,5 +36,15 @@ Trying to use the new AWS keys to get access to the new user.
 ![image](https://github.com/user-attachments/assets/f41b182b-9582-4721-8d86-2ce14137d4a4)
 
 We now have access to the user - "redteamapp-lambda". We can try to assume the dev role since we have permissions to do so.  
-After w
+![image](https://github.com/user-attachments/assets/30d11f06-07ec-4a36-9162-64ab15758938)  
+![image](https://github.com/user-attachments/assets/9acd5c5c-da8f-42c7-a7ba-fe3c0487f717)  
+
+Now, remember the website mentioned a DB. This could mean the DynamoDB.  
+![image](https://github.com/user-attachments/assets/facd8445-7f2c-47ba-be52-e4423da894c3)  
+
+We can check for the contents of the database and we get our **third flag!**  
+![image](https://github.com/user-attachments/assets/16e732d5-4d32-4ca4-ab3f-be81beec8518)
+
+
+
 
